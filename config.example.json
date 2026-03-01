@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "deepseek": {
+      "apiBase": "https://api.deepseek.com",
+      "apiKey": "sk-7e9fe5fe********26a2ebaf"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "workspace": "~/.nanobot/workspace",
+      "model": "deepseek-chat",
+      "provider": "deepseek"
+    }
+  }
+}
